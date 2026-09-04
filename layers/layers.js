@@ -6,7 +6,7 @@ var lyr_Photogrammetry = new ol.layer.Tile({
     visible: true,
     source: new ol.source.XYZ({
         url: 'tiles/{z}/{x}/{y}.jpg',
-        attributions: 'Photogrammetry © Your Name'
+        attributions: 'Photogrammetry'
     })
 });
 
